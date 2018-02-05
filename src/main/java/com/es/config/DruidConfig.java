@@ -17,6 +17,11 @@ package com.es.config;
 //
 //@Configuration
 //@Log4j
+
+//import org.springframework.context.annotation.PropertySource;
+
+//@PropertySource(value = { "classpath:jdbc.properties" }, ignoreResourceNotFound = true)//读取配置文件
+
 //public class DruidConfig {
 //
 //    @Value("${spring.datasource.url}")

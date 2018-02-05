@@ -8,6 +8,7 @@ import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 import lombok.Data;
 import lombok.extern.log4j.Log4j;
@@ -15,6 +16,9 @@ import lombok.extern.log4j.Log4j;
 @Data
 @Log4j
 @Configuration
+
+@PropertySource(value = { "classpath:elasticsearch.properties", "classpath:jdbc.properties" }, ignoreResourceNotFound = true)//读取配置文件
+
 public class ElasticSearchConfig {
     @Value("${spring.data.elasticsearch.properties.cluster-name}")
     private String clusterName;
