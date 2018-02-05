@@ -16,7 +16,7 @@ public class BooksController {
     @Autowired
     private ElasticSearchService elasticSearchService;
 
-    @GetMapping(value = "/law/name")
+    @GetMapping(value = "/books/books")
     public List<Books> findByName(@RequestParam(value = "title") String title,
             @RequestParam(value = "start", defaultValue = "1") Integer start,
             @RequestParam(value = "size", defaultValue = "10") Integer size) {
