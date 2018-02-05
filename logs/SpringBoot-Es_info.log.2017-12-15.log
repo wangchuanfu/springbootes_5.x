@@ -1,0 +1,932 @@
+2017-12-15 17:28:47.731 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 18420 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:28:47.736 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:28:47.921 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 17:28:47 CST 2017]; root of context hierarchy
+2017-12-15 17:28:48.630 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 17:28:49.638 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:28:51.492 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:28:51.511 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:28:51.512 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:28:51.709 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:28:51.709 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3788 ms
+2017-12-15 17:28:52.126 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:28:52.128 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:28:52.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:28:52.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:28:52.135 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:28:52.136 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:28:52.136 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:28:52.136 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:28:52.137 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:28:53.049 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 17:28:53.208 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:28:53.407 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:28:53.544 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 17:28:53.547 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 17:28:53.549 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 17:28:53.624 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 17:28:53.881 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:28:54.240 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:29:27.442 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9200 
+2017-12-15 17:29:28.100 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 17:28:47 CST 2017]; root of context hierarchy
+2017-12-15 17:29:28.275 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:29:28.289 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:29:28.291 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:29:28.350 [restartedMain] INFO  o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped URL path [/law] onto handler '/law'
+2017-12-15 17:29:28.376 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:29:28.377 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:29:28.574 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:29:29.579 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:29:29.919 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:29:29.920 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:29:29.921 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:29:29.926 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:29:29.928 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:29:29.945 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:29:29.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:29:29.965 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:29:30.062 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:29:30.077 [restartedMain] INFO  cn.zhang.Application - Started Application in 43.219 seconds (JVM running for 44.278)
+2017-12-15 17:30:41.994 [http-nio-8089-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:30:41.994 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:30:42.036 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2017-12-15 17:32:03.185 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 17:28:47 CST 2017]; root of context hierarchy
+2017-12-15 17:32:03.197 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:32:03.198 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:32:19.436 [Thread-6] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:32:19.466 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-12-15 17:32:20.056 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 18420 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:32:20.056 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:32:20.062 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c18a87a: startup date [Fri Dec 15 17:32:20 CST 2017]; root of context hierarchy
+2017-12-15 17:32:20.905 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:32:21.260 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:32:21.260 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:32:21.261 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:32:21.303 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:32:21.304 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1242 ms
+2017-12-15 17:32:21.429 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:32:21.430 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:32:21.436 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:32:21.440 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:32:21.441 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:32:21.441 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:32:21.441 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:32:21.441 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:32:21.442 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:32:21.698 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-12-15 17:32:21.715 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:32:21.715 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:32:21.726 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:32:21.738 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:32:51.936 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9200 
+2017-12-15 17:32:52.277 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c18a87a: startup date [Fri Dec 15 17:32:20 CST 2017]; root of context hierarchy
+2017-12-15 17:32:52.323 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:32:52.327 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:32:52.328 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:32:52.381 [restartedMain] INFO  o.s.web.servlet.handler.BeanNameUrlHandlerMapping - Mapped URL path [/law] onto handler '/law'
+2017-12-15 17:32:52.390 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:32:52.390 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:32:52.421 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:32:52.969 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:32:53.247 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:32:53.248 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:32:53.249 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:32:53.253 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:32:53.255 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:32:53.261 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:32:53.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:32:53.264 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:32:53.312 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:32:53.320 [restartedMain] INFO  cn.zhang.Application - Started Application in 33.346 seconds (JVM running for 247.52)
+2017-12-15 17:32:57.460 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:32:57.461 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:32:57.465 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2017-12-15 17:34:21.107 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c18a87a: startup date [Fri Dec 15 17:32:20 CST 2017]; root of context hierarchy
+2017-12-15 17:34:21.115 [Thread-10] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:34:21.115 [Thread-10] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:34:33.106 [Thread-10] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:34:33.125 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-12-15 17:34:33.679 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 18420 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:34:33.680 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:34:33.688 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e78daa2: startup date [Fri Dec 15 17:34:33 CST 2017]; root of context hierarchy
+2017-12-15 17:34:34.648 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:34:35.021 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:34:35.022 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:34:35.022 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:34:35.058 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:34:35.060 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1372 ms
+2017-12-15 17:34:35.133 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:34:35.140 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:34:35.145 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:34:35.146 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:34:35.147 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:34:35.147 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:34:35.149 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:34:35.153 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:34:35.154 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:34:35.384 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-12-15 17:34:35.401 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:34:35.401 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:34:35.412 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:34:35.422 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:35:05.602 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9200 
+2017-12-15 17:35:05.788 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e78daa2: startup date [Fri Dec 15 17:34:33 CST 2017]; root of context hierarchy
+2017-12-15 17:35:05.807 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:35:05.810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:35:05.810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:35:05.825 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:35:05.825 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:35:05.849 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:35:06.428 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:35:06.721 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:35:06.721 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:35:06.722 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:35:06.725 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:35:06.726 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:35:06.734 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:35:06.735 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:35:06.736 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:35:06.744 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:35:06.746 [restartedMain] INFO  cn.zhang.Application - Started Application in 33.151 seconds (JVM running for 380.947)
+2017-12-15 17:35:48.231 [http-nio-8089-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:35:48.231 [http-nio-8089-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:35:48.235 [http-nio-8089-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2017-12-15 17:35:48.250 [http-nio-8089-exec-7] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:37:29.836 [http-nio-8089-exec-4] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:45:44.231 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 5828 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:45:44.233 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:45:44.361 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53ff566f: startup date [Fri Dec 15 17:45:44 CST 2017]; root of context hierarchy
+2017-12-15 17:45:45.096 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 17:45:46.216 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:45:48.188 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:45:48.207 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:45:48.209 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:45:48.434 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:45:48.434 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4073 ms
+2017-12-15 17:45:48.903 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:45:48.905 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:45:48.906 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:45:48.906 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:45:48.912 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:45:48.913 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:45:48.914 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:45:48.914 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:45:48.914 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:45:49.710 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 17:45:49.861 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:45:50.026 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:45:50.142 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 17:45:50.145 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 17:45:50.148 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 17:45:50.213 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 17:45:50.412 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:45:50.762 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:46:23.827 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9200 
+2017-12-15 17:46:24.454 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@53ff566f: startup date [Fri Dec 15 17:45:44 CST 2017]; root of context hierarchy
+2017-12-15 17:46:24.590 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:46:24.599 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:46:24.604 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:46:24.680 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:46:24.681 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:46:24.765 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:46:26.047 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:46:26.433 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:46:26.435 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:46:26.436 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:46:26.450 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:46:26.451 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:46:26.490 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:46:26.535 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:46:26.538 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:46:26.581 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:46:26.597 [restartedMain] INFO  cn.zhang.Application - Started Application in 43.133 seconds (JVM running for 44.161)
+2017-12-15 17:48:09.380 [http-nio-8089-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:48:09.380 [http-nio-8089-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:48:09.435 [http-nio-8089-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms
+2017-12-15 17:48:09.675 [http-nio-8089-exec-9] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:50:29.112 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 18668 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:50:29.116 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:50:29.254 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ff3df1f: startup date [Fri Dec 15 17:50:29 CST 2017]; root of context hierarchy
+2017-12-15 17:50:30.023 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 17:50:31.333 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:50:33.291 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:50:33.308 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:50:33.310 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:50:33.589 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:50:33.589 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4335 ms
+2017-12-15 17:50:34.078 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:50:34.080 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:50:34.081 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:50:34.081 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:50:34.087 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:50:34.088 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:50:34.088 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:50:34.088 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:50:34.089 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:50:35.007 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 17:50:35.130 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:50:35.282 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:50:35.383 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 17:50:35.386 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 17:50:35.390 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 17:50:35.450 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 17:50:35.627 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:50:35.976 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:51:09.047 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9200 
+2017-12-15 17:51:09.690 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ff3df1f: startup date [Fri Dec 15 17:50:29 CST 2017]; root of context hierarchy
+2017-12-15 17:51:09.929 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:51:09.934 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:51:09.935 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:51:09.996 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:51:09.996 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:51:10.080 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:51:11.022 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:51:11.357 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:51:11.359 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:51:11.360 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:51:11.366 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:51:11.367 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:51:11.388 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:51:11.406 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:51:11.408 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:51:11.486 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:51:11.503 [restartedMain] INFO  cn.zhang.Application - Started Application in 43.186 seconds (JVM running for 44.121)
+2017-12-15 17:52:04.020 [http-nio-8089-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:52:04.020 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:52:04.097 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 77 ms
+2017-12-15 17:52:04.378 [http-nio-8089-exec-10] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:52:34.731 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:52:34.733 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:52:34.841 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36a1847b: startup date [Fri Dec 15 17:52:34 CST 2017]; root of context hierarchy
+2017-12-15 17:52:35.587 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 17:52:36.925 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:52:39.056 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:52:39.083 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:52:39.087 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:52:39.304 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:52:39.304 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4463 ms
+2017-12-15 17:52:39.741 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:52:39.743 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:52:39.743 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:52:39.743 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:52:39.747 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:52:39.748 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:52:39.748 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:52:39.748 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:52:39.748 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:52:40.775 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 17:52:40.961 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:52:41.118 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:52:41.296 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 17:52:41.300 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 17:52:41.303 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 17:52:41.383 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 17:52:41.618 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:52:42.029 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:52:45.855 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 17:52:46.768 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36a1847b: startup date [Fri Dec 15 17:52:34 CST 2017]; root of context hierarchy
+2017-12-15 17:52:46.938 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:52:46.948 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:52:46.954 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:52:47.059 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:52:47.059 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:52:47.160 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:52:48.415 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:52:48.893 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:52:48.895 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:52:48.897 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:52:48.903 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:52:48.905 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:52:48.941 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:52:48.986 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:52:48.989 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:52:49.056 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:52:49.207 [restartedMain] INFO  cn.zhang.Application - Started Application in 15.243 seconds (JVM running for 16.397)
+2017-12-15 17:53:03.383 [http-nio-8089-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:53:03.383 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:53:03.429 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2017-12-15 17:53:03.589 [http-nio-8089-exec-10] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:53:49.925 [http-nio-8089-exec-9] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:54:40.364 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36a1847b: startup date [Fri Dec 15 17:52:34 CST 2017]; root of context hierarchy
+2017-12-15 17:54:40.373 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:54:40.374 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:54:42.310 [Thread-6] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:54:42.333 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-12-15 17:54:42.972 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:54:42.976 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:54:42.985 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f8b791: startup date [Fri Dec 15 17:54:42 CST 2017]; root of context hierarchy
+2017-12-15 17:54:43.591 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:54:43.925 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:54:43.926 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:54:43.927 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:54:43.975 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:54:43.976 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 991 ms
+2017-12-15 17:54:44.061 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:54:44.062 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:54:44.064 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:54:44.064 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:54:44.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:54:44.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:54:44.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:54:44.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:54:44.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:54:44.302 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-12-15 17:54:44.324 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:54:44.324 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:54:44.338 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:54:44.350 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:54:44.630 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 17:54:44.794 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f8b791: startup date [Fri Dec 15 17:54:42 CST 2017]; root of context hierarchy
+2017-12-15 17:54:44.839 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:54:44.842 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:54:44.843 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:54:44.861 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:54:44.862 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:54:44.883 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:54:45.235 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:54:45.529 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:54:45.530 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:54:45.530 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:54:45.534 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:54:45.536 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:54:45.542 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:54:45.544 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:54:45.546 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:54:45.556 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:54:45.566 [restartedMain] INFO  cn.zhang.Application - Started Application in 2.686 seconds (JVM running for 132.755)
+2017-12-15 17:54:52.777 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:54:52.778 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:54:52.783 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2017-12-15 17:54:52.796 [http-nio-8089-exec-1] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:55:02.567 [http-nio-8089-exec-2] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:55:18.983 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65f8b791: startup date [Fri Dec 15 17:54:42 CST 2017]; root of context hierarchy
+2017-12-15 17:55:18.998 [Thread-10] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:55:18.999 [Thread-10] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:55:20.731 [Thread-10] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:55:20.746 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2017-12-15 17:55:28.479 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:55:28.480 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:55:28.494 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b4d880: startup date [Fri Dec 15 17:55:28 CST 2017]; root of context hierarchy
+2017-12-15 17:55:29.558 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:55:29.875 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:55:29.876 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:55:29.877 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:55:29.910 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:55:29.911 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1417 ms
+2017-12-15 17:55:29.994 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:55:29.995 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:55:30.000 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:55:30.002 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:55:30.004 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:55:30.005 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:55:30.008 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:55:30.008 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:55:30.020 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:55:30.236 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-12-15 17:55:30.260 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:55:30.260 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:55:30.288 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:55:30.300 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:55:30.887 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 17:55:31.354 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b4d880: startup date [Fri Dec 15 17:55:28 CST 2017]; root of context hierarchy
+2017-12-15 17:55:31.390 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:55:31.398 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:55:31.400 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:55:31.421 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:55:31.422 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:55:31.454 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:55:32.019 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:55:32.382 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:55:32.383 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:55:32.384 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:55:32.408 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:55:32.411 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:55:32.424 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:55:32.425 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:55:32.428 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:55:32.440 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:55:32.443 [restartedMain] INFO  cn.zhang.Application - Started Application in 4.052 seconds (JVM running for 179.633)
+2017-12-15 17:55:55.412 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:55:55.413 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:55:55.418 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2017-12-15 17:55:55.429 [http-nio-8089-exec-1] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:58:37.758 [Thread-16] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72b4d880: startup date [Fri Dec 15 17:55:28 CST 2017]; root of context hierarchy
+2017-12-15 17:58:37.768 [Thread-16] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:58:37.769 [Thread-16] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:58:39.343 [Thread-16] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:58:39.355 [Thread-16] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+2017-12-15 17:58:39.914 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:58:39.914 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:58:39.922 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e3d38f3: startup date [Fri Dec 15 17:58:39 CST 2017]; root of context hierarchy
+2017-12-15 17:58:40.535 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:58:40.802 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:58:40.803 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:58:40.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:58:40.847 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:58:40.849 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 927 ms
+2017-12-15 17:58:40.925 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:58:40.926 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:58:40.927 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:58:40.928 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:58:41.124 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} inited
+2017-12-15 17:58:41.143 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:58:41.143 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:58:41.156 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:58:41.165 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:58:41.340 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 17:58:41.507 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e3d38f3: startup date [Fri Dec 15 17:58:39 CST 2017]; root of context hierarchy
+2017-12-15 17:58:41.521 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:58:41.523 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:58:41.524 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:58:41.538 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:58:41.538 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:58:41.555 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:58:41.812 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:58:42.101 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:58:42.102 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:58:42.102 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:58:42.104 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:58:42.105 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:58:42.109 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:58:42.109 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:58:42.111 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:58:42.120 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:58:42.123 [restartedMain] INFO  cn.zhang.Application - Started Application in 2.283 seconds (JVM running for 369.312)
+2017-12-15 17:58:43.526 [http-nio-8089-exec-2] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:58:43.548 [http-nio-8089-exec-2] INFO  org.apache.catalina.loader.WebappClassLoaderBase - Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/javax.validation.spi.ValidationProvider]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/javax.validation.spi.ValidationProvider]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResources(WebappClassLoaderBase.java:933)
+	at java.lang.ClassLoader.getResources(ClassLoader.java:1142)
+	at java.util.ServiceLoader$LazyIterator.hasNextService(ServiceLoader.java:348)
+	at java.util.ServiceLoader$LazyIterator.hasNext(ServiceLoader.java:393)
+	at java.util.ServiceLoader$1.hasNext(ServiceLoader.java:474)
+	at javax.validation.Validation$GetValidationProviderListAction.loadProviders(Validation.java:354)
+	at javax.validation.Validation$GetValidationProviderListAction.run(Validation.java:329)
+	at javax.validation.Validation$GetValidationProviderListAction.getValidationProviderList(Validation.java:316)
+	at javax.validation.Validation$DefaultValidationProviderResolver.getValidationProviders(Validation.java:299)
+	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:257)
+	at org.springframework.boot.validation.MessageInterpolatorFactory.getObject(MessageInterpolatorFactory.java:53)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$ValidatedLocalValidatorFactoryBean.<init>(ConfigurationPropertiesBindingPostProcessor.java:411)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:368)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:352)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:314)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1083)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:519)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:310)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:162)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.zhang.es.dao.impl.ElasticSearchDaoImpl$$EnhancerBySpringCGLIB$$bcd2d62e.getLawData(<generated>)
+	at cn.zhang.es.service.impl.ElasticSearchSerivceImpl.getLawData(ElasticSearchSerivceImpl.java:20)
+	at cn.zhang.es.api.LawController.findByName(LawController.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-15 17:58:43.555 [http-nio-8089-exec-2] INFO  org.apache.catalina.loader.WebappClassLoaderBase - Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/javax.validation.spi.ValidationProvider]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [META-INF/services/javax.validation.spi.ValidationProvider]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResources(WebappClassLoaderBase.java:933)
+	at java.lang.ClassLoader.getResources(ClassLoader.java:1142)
+	at java.util.ServiceLoader$LazyIterator.hasNextService(ServiceLoader.java:348)
+	at java.util.ServiceLoader$LazyIterator.hasNext(ServiceLoader.java:393)
+	at java.util.ServiceLoader$1.hasNext(ServiceLoader.java:474)
+	at javax.validation.Validation$GetValidationProviderListAction.loadProviders(Validation.java:354)
+	at javax.validation.Validation$GetValidationProviderListAction.run(Validation.java:329)
+	at javax.validation.Validation$GetValidationProviderListAction.getValidationProviderList(Validation.java:316)
+	at javax.validation.Validation$DefaultValidationProviderResolver.getValidationProviders(Validation.java:299)
+	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:257)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:250)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor$ValidatedLocalValidatorFactoryBean.<init>(ConfigurationPropertiesBindingPostProcessor.java:412)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.getValidator(ConfigurationPropertiesBindingPostProcessor.java:368)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.determineValidator(ConfigurationPropertiesBindingPostProcessor.java:352)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:314)
+	at org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.postProcessBeforeInitialization(ConfigurationPropertiesBindingPostProcessor.java:291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:785)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1083)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:519)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:310)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:162)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.zhang.es.dao.impl.ElasticSearchDaoImpl$$EnhancerBySpringCGLIB$$bcd2d62e.getLawData(<generated>)
+	at cn.zhang.es.service.impl.ElasticSearchSerivceImpl.getLawData(ElasticSearchSerivceImpl.java:20)
+	at cn.zhang.es.api.LawController.findByName(LawController.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-12-15 17:58:50.235 [http-nio-8089-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:58:50.235 [http-nio-8089-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:58:50.240 [http-nio-8089-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2017-12-15 17:58:50.249 [http-nio-8089-exec-5] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 17:59:22.523 [Thread-22] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e3d38f3: startup date [Fri Dec 15 17:58:39 CST 2017]; root of context hierarchy
+2017-12-15 17:59:22.527 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 17:59:22.527 [Thread-22] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 17:59:24.321 [Thread-22] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:59:24.333 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed
+2017-12-15 17:59:24.931 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 17:59:24.933 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 17:59:24.947 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60b67c12: startup date [Fri Dec 15 17:59:24 CST 2017]; root of context hierarchy
+2017-12-15 17:59:25.462 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 17:59:25.748 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 17:59:25.749 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 17:59:25.750 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 17:59:25.776 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 17:59:25.777 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 833 ms
+2017-12-15 17:59:25.848 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:59:25.849 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 17:59:25.849 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 17:59:25.852 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 17:59:25.854 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 17:59:25.854 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 17:59:25.855 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 17:59:25.855 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 17:59:25.856 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 17:59:26.053 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} inited
+2017-12-15 17:59:26.070 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:59:26.070 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 17:59:26.082 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 17:59:26.090 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 17:59:26.248 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 17:59:26.382 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60b67c12: startup date [Fri Dec 15 17:59:24 CST 2017]; root of context hierarchy
+2017-12-15 17:59:26.395 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String)
+2017-12-15 17:59:26.397 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 17:59:26.397 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 17:59:26.406 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:59:26.406 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:59:26.421 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 17:59:26.725 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 17:59:26.969 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 17:59:26.969 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 17:59:26.969 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 17:59:26.971 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 17:59:26.972 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 17:59:26.977 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:59:26.977 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 17:59:26.979 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 17:59:26.995 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 17:59:27.002 [restartedMain] INFO  cn.zhang.Application - Started Application in 2.147 seconds (JVM running for 414.192)
+2017-12-15 17:59:30.149 [http-nio-8089-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 17:59:30.150 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 17:59:30.154 [http-nio-8089-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+2017-12-15 17:59:30.164 [http-nio-8089-exec-2] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:01:41.064 [Thread-28] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60b67c12: startup date [Fri Dec 15 17:59:24 CST 2017]; root of context hierarchy
+2017-12-15 18:01:41.071 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 18:01:41.072 [Thread-28] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 18:01:42.387 [Thread-28] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:01:42.401 [Thread-28] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-5} closed
+2017-12-15 18:01:42.863 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 18:01:42.864 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 18:01:42.872 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43b831af: startup date [Fri Dec 15 18:01:42 CST 2017]; root of context hierarchy
+2017-12-15 18:05:41.009 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 6416 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 18:05:41.012 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 18:05:41.143 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 18:05:41 CST 2017]; root of context hierarchy
+2017-12-15 18:05:41.646 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 18:05:42.729 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 18:05:44.436 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 18:05:44.454 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 18:05:44.456 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 18:05:44.647 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 18:05:44.648 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3504 ms
+2017-12-15 18:05:45.117 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:05:45.119 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 18:05:45.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:05:45.121 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 18:05:45.128 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 18:05:45.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 18:05:45.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 18:05:45.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 18:05:45.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 18:05:46.144 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 18:05:46.251 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:05:46.395 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 18:05:46.541 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 18:05:46.543 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 18:05:46.545 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 18:05:46.601 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 18:05:46.809 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 18:05:47.155 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:05:50.028 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 18:05:50.600 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 18:05:41 CST 2017]; root of context hierarchy
+2017-12-15 18:05:50.747 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-15 18:05:50.753 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 18:05:50.755 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 18:05:50.831 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:05:50.831 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:05:50.946 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:05:51.940 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 18:05:52.281 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 18:05:52.283 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 18:05:52.284 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 18:05:52.290 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 18:05:52.291 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 18:05:52.310 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:05:52.326 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:05:52.328 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 18:05:52.429 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 18:05:52.493 [restartedMain] INFO  cn.zhang.Application - Started Application in 12.136 seconds (JVM running for 12.972)
+2017-12-15 18:06:03.657 [http-nio-8089-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 18:06:03.657 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 18:06:03.704 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2017-12-15 18:06:04.055 [http-nio-8089-exec-1] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:07:31.519 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31991f0e: startup date [Fri Dec 15 18:05:41 CST 2017]; root of context hierarchy
+2017-12-15 18:07:31.529 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2017-12-15 18:07:31.530 [Thread-6] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2017-12-15 18:07:33.084 [Thread-6] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:07:33.095 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2017-12-15 18:07:33.713 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 6416 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 18:07:33.714 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 18:07:33.720 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@533128da: startup date [Fri Dec 15 18:07:33 CST 2017]; root of context hierarchy
+2017-12-15 18:07:34.470 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 18:07:34.818 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 18:07:34.819 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 18:07:34.820 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 18:07:34.860 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 18:07:34.861 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1141 ms
+2017-12-15 18:07:34.951 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:07:34.952 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 18:07:34.953 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 18:07:35.157 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-12-15 18:07:35.180 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:07:35.181 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 18:07:35.196 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 18:07:35.207 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:07:35.402 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 18:07:35.568 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@533128da: startup date [Fri Dec 15 18:07:33 CST 2017]; root of context hierarchy
+2017-12-15 18:07:35.604 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-15 18:07:35.606 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 18:07:35.607 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 18:07:35.625 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:07:35.626 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:07:35.643 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:07:36.002 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 18:07:36.695 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 18:07:36.695 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 18:07:36.696 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 18:07:36.699 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 18:07:36.700 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 18:07:36.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:07:36.708 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:07:36.710 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 18:07:36.721 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 18:07:36.727 [restartedMain] INFO  cn.zhang.Application - Started Application in 3.101 seconds (JVM running for 117.205)
+2017-12-15 18:07:48.367 [http-nio-8089-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 18:07:48.367 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 18:07:48.374 [http-nio-8089-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2017-12-15 18:07:48.388 [http-nio-8089-exec-10] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:08:10.695 [http-nio-8089-exec-9] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:09:46.548 [http-nio-8089-exec-4] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:10:03.573 [http-nio-8089-exec-8] INFO  cn.zhang.es.dao.impl.ElasticSearchDaoImpl - getTestData start...
+2017-12-15 18:11:16.214 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 6040 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-15 18:11:16.215 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-15 18:11:16.346 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f9db3ae: startup date [Fri Dec 15 18:11:16 CST 2017]; root of context hierarchy
+2017-12-15 18:11:16.937 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-15 18:11:18.045 [restartedMain] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'filterRegistrationBean' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidConfig; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [cn/zhang/config/DruidConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.stat.DruidWebStatFilterConfiguration; factoryMethodName=filterRegistrationBean; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/stat/DruidWebStatFilterConfiguration.class]]
+2017-12-15 18:11:19.848 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-15 18:11:19.866 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-15 18:11:19.867 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 18:11:20.065 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-15 18:11:20.066 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3720 ms
+2017-12-15 18:11:20.462 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:11:20.463 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 18:11:20.464 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-15 18:11:20.465 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2017-12-15 18:11:20.469 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 18:11:20.470 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 18:11:20.470 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 18:11:20.471 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 18:11:20.471 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-15 18:11:21.278 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-15 18:11:21.406 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:11:21.561 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-15 18:11:21.740 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-15 18:11:21.746 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2017-12-15 18:11:21.750 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2017-12-15 18:11:21.829 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-15 18:11:22.060 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-12-15 18:11:22.469 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-15 18:11:25.587 [restartedMain] INFO  cn.zhang.config.ElasticSearchConfig - ElasticSearch client get over ..config:ip：192.168.1.20 端口：9300 
+2017-12-15 18:11:26.280 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f9db3ae: startup date [Fri Dec 15 18:11:16 CST 2017]; root of context hierarchy
+2017-12-15 18:11:26.436 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/law/name],methods=[GET]}" onto public java.util.List<cn.zhang.es.model.Law> cn.zhang.es.api.LawController.findByName(java.lang.String,java.lang.Integer,java.lang.Integer)
+2017-12-15 18:11:26.444 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 18:11:26.446 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 18:11:26.539 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:11:26.549 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:11:26.639 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 18:11:27.889 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2017-12-15 18:11:28.262 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-12-15 18:11:28.265 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2017-12-15 18:11:28.266 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2017-12-15 18:11:28.274 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2017-12-15 18:11:28.276 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2017-12-15 18:11:28.295 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:11:28.312 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2017-12-15 18:11:28.314 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2017-12-15 18:11:28.395 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8089 (http)
+2017-12-15 18:11:28.409 [restartedMain] INFO  cn.zhang.Application - Started Application in 12.846 seconds (JVM running for 13.817)

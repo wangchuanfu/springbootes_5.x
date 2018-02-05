@@ -1,0 +1,424 @@
+2017-12-13 16:26:05.555 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 11024 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:26:05.556 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:26:05.660 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7dbae771: startup date [Wed Dec 13 16:26:05 CST 2017]; root of context hierarchy
+2017-12-13 16:26:06.149 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:26:08.282 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:26:08.301 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:26:08.303 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:26:08.481 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:26:08.482 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2824 ms
+2017-12-13 16:26:08.791 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:26:08.793 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:26:08.799 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:26:08.800 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:26:08.801 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:26:08.801 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:26:08.801 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:26:09.724 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:26:24.804 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 972 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:26:24.806 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:26:24.918 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d83071d: startup date [Wed Dec 13 16:26:24 CST 2017]; root of context hierarchy
+2017-12-13 16:26:25.518 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:26:28.375 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:26:28.397 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:26:28.399 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:26:28.614 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:26:28.614 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3696 ms
+2017-12-13 16:26:29.008 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:26:29.010 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:26:29.017 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:26:29.018 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:26:29.019 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:26:29.019 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:26:29.019 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:26:30.102 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:27:47.667 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 5276 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:27:47.669 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:27:47.766 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a74b815: startup date [Wed Dec 13 16:27:47 CST 2017]; root of context hierarchy
+2017-12-13 16:27:48.347 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:27:51.039 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:27:51.056 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:27:51.058 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:27:51.282 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:27:51.282 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3516 ms
+2017-12-13 16:27:51.656 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:27:51.658 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:27:51.664 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:27:51.665 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:27:51.666 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:27:51.666 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:27:51.667 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:27:52.778 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:37:51.883 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 1728 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:37:51.885 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:37:51.984 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4d8cbcdb: startup date [Wed Dec 13 16:37:51 CST 2017]; root of context hierarchy
+2017-12-13 16:37:52.577 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:37:55.203 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:37:55.219 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:37:55.220 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:37:55.415 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:37:55.415 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3431 ms
+2017-12-13 16:37:55.803 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:37:55.805 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:37:55.810 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:37:55.811 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:37:55.811 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:37:55.812 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:37:55.812 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:37:56.898 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:39:01.073 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 15124 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:39:01.074 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:39:01.160 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@511e9cb0: startup date [Wed Dec 13 16:39:01 CST 2017]; root of context hierarchy
+2017-12-13 16:39:01.616 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:39:03.843 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:39:03.861 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:39:03.862 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:39:04.024 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:39:04.025 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2865 ms
+2017-12-13 16:39:04.336 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:39:04.338 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:39:04.343 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:39:04.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:39:04.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:39:04.344 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:39:04.345 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:39:05.249 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:39:48.035 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 14908 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:39:48.038 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:39:48.158 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1fcf0cf7: startup date [Wed Dec 13 16:39:48 CST 2017]; root of context hierarchy
+2017-12-13 16:39:48.889 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:39:51.372 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:39:51.390 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:39:51.392 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:39:51.673 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:39:51.674 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3516 ms
+2017-12-13 16:39:52.065 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:39:52.068 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:39:52.074 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:39:52.075 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:39:52.075 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:39:52.075 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:39:52.076 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:39:53.279 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:40:48.057 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 15040 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:40:48.059 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:40:48.215 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4443ed0: startup date [Wed Dec 13 16:40:48 CST 2017]; root of context hierarchy
+2017-12-13 16:40:48.749 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:40:51.536 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:40:51.552 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:40:51.554 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:40:51.792 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:40:51.792 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3577 ms
+2017-12-13 16:40:52.220 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:40:52.222 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:40:52.229 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:40:52.230 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:40:52.230 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:40:52.231 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:40:52.231 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:40:53.394 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:47:01.567 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 16580 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:47:01.569 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:47:01.695 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@639e1fe6: startup date [Wed Dec 13 16:47:01 CST 2017]; root of context hierarchy
+2017-12-13 16:47:02.571 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:47:05.179 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:47:05.199 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:47:05.200 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:47:05.465 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:47:05.466 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3771 ms
+2017-12-13 16:47:05.932 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:47:05.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:47:05.941 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:47:05.942 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:47:05.943 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:47:05.943 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:47:05.943 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:47:07.655 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:48:31.481 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 9364 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:48:31.483 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:48:31.587 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61179abf: startup date [Wed Dec 13 16:48:31 CST 2017]; root of context hierarchy
+2017-12-13 16:48:32.179 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:48:34.847 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:48:34.867 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:48:34.869 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:48:35.112 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:48:35.113 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3526 ms
+2017-12-13 16:48:35.489 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:48:35.491 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:48:35.498 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:48:35.499 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:48:35.499 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:48:35.500 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:48:35.500 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:48:36.614 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:49:47.248 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 11372 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:49:47.250 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:49:47.366 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ab544a6: startup date [Wed Dec 13 16:49:47 CST 2017]; root of context hierarchy
+2017-12-13 16:49:47.938 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:49:50.424 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:49:50.446 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:49:50.447 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:49:50.682 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:49:50.683 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3317 ms
+2017-12-13 16:49:51.201 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:49:51.203 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:49:51.210 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:49:51.211 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:49:51.212 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:49:51.212 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:49:51.212 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:49:52.599 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:52:33.417 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 13156 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:52:33.419 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:52:33.529 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e6ba854: startup date [Wed Dec 13 16:52:33 CST 2017]; root of context hierarchy
+2017-12-13 16:52:34.220 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:52:36.835 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:52:36.850 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:52:36.853 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:52:37.081 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:52:37.082 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3553 ms
+2017-12-13 16:52:37.463 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:52:37.465 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:52:37.471 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:52:37.472 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:52:37.472 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:52:37.472 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:52:37.472 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:52:38.530 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:53:57.262 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12088 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:53:57.264 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:53:57.412 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42f19730: startup date [Wed Dec 13 16:53:57 CST 2017]; root of context hierarchy
+2017-12-13 16:53:58.035 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:54:00.518 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:54:00.533 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:54:00.534 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:54:00.781 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:54:00.782 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3370 ms
+2017-12-13 16:54:01.186 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:54:01.189 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:54:01.194 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:54:01.195 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:54:01.195 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:54:01.195 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:54:01.195 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:54:02.463 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:55:03.249 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 1584 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:55:03.251 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:55:03.424 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4894d5cc: startup date [Wed Dec 13 16:55:03 CST 2017]; root of context hierarchy
+2017-12-13 16:55:04.025 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:55:06.548 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:55:06.566 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:55:06.567 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:55:06.842 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:55:06.843 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3419 ms
+2017-12-13 16:55:07.354 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:55:07.357 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:55:07.364 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:55:07.365 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:55:07.365 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:55:07.365 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:55:07.365 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:55:08.789 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 16:56:59.270 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 6684 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 16:56:59.272 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 16:56:59.388 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2941c5df: startup date [Wed Dec 13 16:56:59 CST 2017]; root of context hierarchy
+2017-12-13 16:57:00.058 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 16:57:02.492 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 16:57:02.510 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 16:57:02.511 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 16:57:02.700 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 16:57:02.700 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3312 ms
+2017-12-13 16:57:03.041 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 16:57:03.043 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 16:57:03.048 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 16:57:03.049 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 16:57:03.050 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 16:57:03.050 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 16:57:03.050 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 16:57:04.149 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:00:44.434 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 10452 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:00:44.436 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:00:44.620 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@dd084f8: startup date [Wed Dec 13 17:00:44 CST 2017]; root of context hierarchy
+2017-12-13 17:00:45.092 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:00:47.720 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:00:47.739 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:00:47.740 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:00:48.000 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:00:48.001 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3381 ms
+2017-12-13 17:00:48.411 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:00:48.413 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:00:48.417 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:00:48.418 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:00:48.418 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:00:48.418 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:00:48.418 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:15:02.926 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 13228 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:15:02.928 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:15:03.062 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f37273: startup date [Wed Dec 13 17:15:03 CST 2017]; root of context hierarchy
+2017-12-13 17:15:03.599 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:15:05.591 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:15:05.608 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:15:05.610 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:15:05.826 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:15:05.827 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2765 ms
+2017-12-13 17:15:06.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:15:06.123 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:15:06.128 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:15:06.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:15:06.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:15:06.130 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:15:06.130 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:15:07.170 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:15:55.897 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 10700 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:15:55.899 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:15:56.001 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7bd2c37: startup date [Wed Dec 13 17:15:56 CST 2017]; root of context hierarchy
+2017-12-13 17:15:56.641 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:15:59.253 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:15:59.285 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:15:59.286 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:15:59.688 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:15:59.689 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3688 ms
+2017-12-13 17:16:00.104 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:16:00.111 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:16:00.119 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:16:00.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:16:00.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:16:00.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:16:00.120 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:16:01.494 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:17:08.387 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 2076 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:17:08.389 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:17:08.562 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@34f6113d: startup date [Wed Dec 13 17:17:08 CST 2017]; root of context hierarchy
+2017-12-13 17:17:09.033 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:17:11.742 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:17:11.761 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:17:11.763 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:17:12.017 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:17:12.018 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3456 ms
+2017-12-13 17:17:12.382 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:17:12.383 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:17:12.388 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:17:12.389 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:17:12.389 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:17:12.389 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:17:12.390 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:17:13.629 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:21:03.894 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 8860 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:21:03.896 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:21:04.008 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1645ff85: startup date [Wed Dec 13 17:21:04 CST 2017]; root of context hierarchy
+2017-12-13 17:21:04.818 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:21:07.167 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:21:07.185 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:21:07.187 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:21:07.433 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:21:07.433 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3425 ms
+2017-12-13 17:21:07.868 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:21:07.870 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:21:07.876 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:21:07.877 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:21:07.877 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:21:07.877 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:21:07.878 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:21:08.968 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:22:06.145 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12316 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:22:06.147 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:22:06.321 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@72fb7b65: startup date [Wed Dec 13 17:22:06 CST 2017]; root of context hierarchy
+2017-12-13 17:22:06.887 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:22:09.670 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:22:09.689 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:22:09.690 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:22:09.911 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:22:09.912 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3591 ms
+2017-12-13 17:22:10.295 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:22:10.297 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:22:10.304 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:22:10.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:22:10.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:22:10.305 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:22:10.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:22:11.518 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:33:34.575 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 5820 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:33:34.577 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:33:34.817 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1606eddd: startup date [Wed Dec 13 17:33:34 CST 2017]; root of context hierarchy
+2017-12-13 17:33:35.447 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:33:38.491 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:33:38.506 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:33:38.507 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:33:38.707 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:33:38.707 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3890 ms
+2017-12-13 17:33:39.189 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:33:39.191 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:33:39.199 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:33:39.200 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:33:39.201 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:33:39.201 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:33:39.201 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:33:40.445 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:38:15.210 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 12920 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:38:15.212 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:38:15.288 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@319422f8: startup date [Wed Dec 13 17:38:15 CST 2017]; root of context hierarchy
+2017-12-13 17:38:15.873 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:38:18.256 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:38:18.276 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:38:18.277 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:38:18.484 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:38:18.485 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3197 ms
+2017-12-13 17:38:18.806 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:38:18.808 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:38:18.814 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:38:18.821 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:38:18.821 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:38:18.822 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:38:18.822 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:38:19.945 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:40:22.428 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 13516 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:40:22.430 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:40:22.550 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2840f8a8: startup date [Wed Dec 13 17:40:22 CST 2017]; root of context hierarchy
+2017-12-13 17:40:23.111 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:40:26.232 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:40:26.260 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:40:26.262 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:40:26.496 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:40:26.497 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3947 ms
+2017-12-13 17:40:27.107 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:40:27.118 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:40:27.129 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:40:27.133 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:40:27.133 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:40:27.133 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:40:27.134 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:40:28.504 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:40:50.606 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 3256 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:40:50.608 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:40:50.732 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6accde52: startup date [Wed Dec 13 17:40:50 CST 2017]; root of context hierarchy
+2017-12-13 17:40:51.221 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:40:53.783 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:40:53.799 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:40:53.801 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:40:53.980 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:40:53.981 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3249 ms
+2017-12-13 17:40:54.390 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:40:54.393 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:40:54.399 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:40:54.400 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:40:54.400 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:40:54.400 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:40:54.401 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:40:55.500 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-12-13 17:41:26.875 [restartedMain] INFO  cn.zhang.Application - Starting Application on MrZhang with PID 14456 (D:\workspace\Springboot-Es\target\classes started by MrZhang in D:\workspace\Springboot-Es)
+2017-12-13 17:41:26.876 [restartedMain] INFO  cn.zhang.Application - No active profile set, falling back to default profiles: default
+2017-12-13 17:41:27.019 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@319422f8: startup date [Wed Dec 13 17:41:27 CST 2017]; root of context hierarchy
+2017-12-13 17:41:27.507 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-12-13 17:41:30.025 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8089 (http)
+2017-12-13 17:41:30.042 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2017-12-13 17:41:30.043 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-13 17:41:30.257 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2017-12-13 17:41:30.258 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3239 ms
+2017-12-13 17:41:30.570 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-13 17:41:30.572 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-12-13 17:41:30.577 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-13 17:41:30.577 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-13 17:41:30.577 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-13 17:41:30.578 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-13 17:41:30.578 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2017-12-13 17:41:31.631 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
